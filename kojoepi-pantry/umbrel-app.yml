@@ -1,19 +1,22 @@
 manifestVersion: 1
+
 id: kojoepi-pantry
-category: utilities
 name: Pantry
+category: utilities
 version: "1.0.0"
-tagline: Einfache Speisekammerverwaltung
+
+tagline: Speisekammerverwaltung
 icon: app-icon.png
+
 description: >-
   Mobile optimierte Speisekammerverwaltung mit Haltbarkeitsdaten.
-developer: Local
-website: https://local
-submitter: Local
-submission: https://local
-repo: https://local
-support: https://local
-port: 80
+
+developer: KojoePi
+website: https://github.com/KojoePi
+submitter: KojoePi
+submission: https://github.com/KojoePi/Pantry-App
+repo: https://github.com/KojoePi/Pantry-App
+support: https://github.com/KojoePi/Pantry-App/issues
 
 gallery:
   - app-icon.png
@@ -21,11 +24,13 @@ gallery:
 releaseNotes: >-
   Erste Version.
 
-defaultUsername: ""
-defaultPassword: ""
-
 dependencies: []
 
+port: 80
+
 path: ""
+
+defaultUsername: ""
+defaultPassword: ""
 
 deterministicPassword: false
