@@ -13,7 +13,7 @@ submitter: Local
 submission: https://local
 repo: https://local
 support: https://local
-port: 3000
+port: 80
 
 gallery:
   - app-icon.png
