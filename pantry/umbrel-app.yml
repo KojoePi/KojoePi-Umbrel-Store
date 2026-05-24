@@ -1,9 +1,9 @@
 manifestVersion: 1
-id: pantry
+id: kojoepi-pantry
 category: utilities
 name: Pantry
 version: "1.0.0"
-tagline: Einfache Speisekammerverwaltung
+tagline: Speisekammerverwaltung
 icon: app-icon.png
 description: >-
   Mobile optimierte Speisekammerverwaltung mit Haltbarkeitsdaten.
