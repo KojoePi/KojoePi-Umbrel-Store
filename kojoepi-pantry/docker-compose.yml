@@ -1,9 +1,13 @@
 version: "3.7"
 
 services:
+  app_proxy:
+    environment:
+      APP_HOST: frontend
+      APP_PORT: 80
+
   backend:
     build: ./backend
-    container_name: pantry-backend
     restart: unless-stopped
     environment:
       - NODE_ENV=production
@@ -12,9 +16,6 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: pantry-frontend
     restart: unless-stopped
-    ports:
-      - "3000:80"
     depends_on:
       - backend
